@@ -82,7 +82,7 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  return num % 2 == 0
+  return num % 2 == 0;
 }
 
 function isOdd(num) {
@@ -94,12 +94,12 @@ function isOdd(num) {
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  return num ** 2;
+  return num * num;
 }
 
 function cube(num) {
   // cube num and return the new value
-  return num ** 3;
+  return num * num * num;
 }
 
 function raiseToPower(num, exponent) {
@@ -126,7 +126,7 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return `${firstName} ${lastName}`
+  return `${firstName} ${lastName}`;
 }
 
 function getGreeting(name) {
